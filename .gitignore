@@ -1,8 +1,8 @@
-# Compiled class file
+# Ignora los archivos class 
 *.class
 
-# Log file
-*.log
+# Ignora los archivos swp
+*.swp
 
 # BlueJ files
 *.ctxt
