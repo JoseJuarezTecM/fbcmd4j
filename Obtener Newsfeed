@@ -1,9 +1,0 @@
-case 1: 
-							logger.info("Opcion seleccionada '(1) Obtener News Feed'");
-							ResponseList<Post> feed = Utils.obtenerWall(facebook);
-							
-							for(Post post : feed) {
-								System.out.println(post.getMessage());
-							}
-							
-							break;
